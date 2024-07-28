@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-border::after{
+    content: "";
+    background-color: #2563eb;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    left: 1%;
+    top: 48px;
+    z-index: -1;
+}
