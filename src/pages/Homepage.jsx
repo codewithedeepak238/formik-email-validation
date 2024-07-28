@@ -66,7 +66,7 @@ export const Homepage = () => {
                                 <input className="p-[0.5%] border outline-none w-full" id="dob" name="dob" type="date" required />
                                 <input className="p-[0.5%] border outline-none w-full" id="aadhar" name="aadhar" type="number" placeholder="Aadhar Number" required />
                                 <input className="p-[0.5%] border outline-none w-full" id="mobile" name="mobile" type="number" placeholder="Mobile Number" required />
-                                <input className="p-[0.5%] border outline-none w-full" name="age" id="age" type="number" placeholder="Age" required />
+                                <input className="p-[0.5%] border outline-none w-full" name="age" id="age" type="number" placeholder="Age" disabled/>
                                 <button className="p-[0.5%] text-blue-500 underline" type="submit">Save</button>
                             </div>
                         </form>
