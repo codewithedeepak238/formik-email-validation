@@ -12,3 +12,6 @@
     top: 48px;
     z-index: -1;
 }
+.form-error{
+    color: brown;
+}
