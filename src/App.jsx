@@ -1,13 +1,12 @@
-import { Header } from './components'
+import { Homepage } from './pages/Homepage'
 import './App.css'
-import { Allroutes } from './routes/Allroutes'
+
 
 function App() {
 
   return (
     <div className=''>
-      <Header/>
-      <Allroutes/>
+      <Homepage/>
     </div>
   )
 }
