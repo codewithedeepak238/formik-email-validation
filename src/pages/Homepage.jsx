@@ -50,7 +50,7 @@ export const Homepage = () => {
                     </div>
                     <div className='flex justify-center'>
                         {
-                            values.name && values.email && values.passwprd && values.confirm_password && Object.keys(errors).length===0 ? <button type='submit' className='bg-[#666666] text-white px-[5%] py-[2%] rounded-[5px]'>SIGN UP</button>:<button type='submit' className='bg-[#cccccc] text-white px-[5%] py-[2%] rounded-[5px]' disabled>SIGN UP</button>
+                            Object.keys(errors).length===0 ? <button type='submit' className='bg-[#666666] text-white px-[5%] py-[2%] rounded-[5px]'>SIGN UP</button>:<button type='submit' className='bg-[#cccccc] text-white px-[5%] py-[2%] rounded-[5px]' disabled>SIGN UP</button>
                         }
                         
                     </div>
